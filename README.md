@@ -1,6 +1,6 @@
 # Flutter TODO App (CRUD) 
 
-🇺🇸 This is a basic Todo list application developed using the Flutter framework. It provides basic CRUD (Create, Read, Update, Delete) functionalities to efficiently manage your daily tasks.
+### 🇺🇸 This is a basic Todo list application developed using the Flutter framework. It provides basic CRUD (Create, Read, Update, Delete) functionalities to efficiently manage your daily tasks.
 
 ## Features
 - **Add Task:** Add new tasks to your list.
@@ -13,7 +13,9 @@
 2. Open the project in your Flutter development environment (e.g., Android Studio, VSCode).
 3. Run the application on an emulator or physical device.
 
-🇧🇷 Este é um aplicativo básico de lista de tarefas (TODO) desenvolvido com o framework Flutter. Ele oferece funcionalidades básicas de CRUD (Criar, Ler, Atualizar e Deletar) para gerenciar suas tarefas diárias de forma eficiente.
+<br>
+
+### 🇧🇷 Este é um aplicativo básico de lista de tarefas (TODO) desenvolvido com o framework Flutter. Ele oferece funcionalidades básicas de CRUD (Criar, Ler, Atualizar e Deletar) para gerenciar suas tarefas diárias de forma eficiente.
 
 ## Funcionalidades
 - **Adicionar Tarefa:** Adicione novas tarefas à sua lista.
