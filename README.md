@@ -1,16 +1,26 @@
-# todolist
+# Flutter TODO App (CRUD) 
 
-A new Flutter project.
+🇺🇸 This is a basic Todo list application developed using the Flutter framework. It provides basic CRUD (Create, Read, Update, Delete) functionalities to efficiently manage your daily tasks.
 
-## Getting Started
+## Features
+- **Add Task:** Add new tasks to your list.
+- **Edit Task:** Modify existing tasks to keep your information up-to-date.
+- **Mark as Done:** Check tasks off your list once completed.
+- **Delete Task:** Remove tasks that are no longer needed.
 
-This project is a starting point for a Flutter application.
+## How to Use
+1. Clone this repository to your local machine using the `git clone` command.
+2. Open the project in your Flutter development environment (e.g., Android Studio, VSCode).
+3. Run the application on an emulator or physical device.
 
-A few resources to get you started if this is your first Flutter project:
+🇧🇷 Este é um aplicativo básico de lista de tarefas (TODO) desenvolvido com o framework Flutter. Ele oferece funcionalidades básicas de CRUD (Criar, Ler, Atualizar e Deletar) para gerenciar suas tarefas diárias de forma eficiente.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Funcionalidades
+- **Adicionar Tarefa:** Adicione novas tarefas à sua lista.
+- **Editar Tarefa:** Modifique as tarefas existentes para manter suas informações atualizadas.
+- **Excluir Tarefa:** Remova as tarefas que não são mais necessárias.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como Usar
+1. Clone este repositório em sua máquina local usando o comando `git clone`.
+2. Abra o projeto no seu ambiente de desenvolvimento Flutter (por exemplo, Android Studio, VSCode).
+3. Execute o aplicativo em um emulador ou dispositivo físico.
