@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:todolist/screens/add_todo.dart';
 import 'package:todolist/services/project_api.dart';
+import 'package:todolist/widget/todo_card.dart';
 
 import '../core/constants/show_feedback.dart';
 
@@ -55,35 +56,11 @@ class _TodoListPageState extends State<TodoListPage> {
                 padding: const EdgeInsets.all(8),
                 itemBuilder: ((context, index) {
                   final item = items[index];
-                  final id = item['_id'];
-                  return Card(
-                    child: ListTile(
-                      leading: CircleAvatar(child: Text("${index + 1}")),
-                      title: Text(item['title']),
-                      subtitle: Text(item['description']),
-                      trailing: PopupMenuButton(
-                        onSelected: (value) {
-                          if (value == 'edit') {
-                            navigateToEditPage(item);
-                          } else if (value == 'delete') {
-                            deleteById(id);
-                          }
-                        },
-                        itemBuilder: (context) {
-                          return [
-                            const PopupMenuItem(
-                              child: Text('Editar'),
-                              value: 'edit',
-                            ),
-                            const PopupMenuItem(
-                              child: Text('Remover'),
-                              value: 'delete',
-                            ),
-                          ];
-                        },
-                      ),
-                    ),
-                  );
+                  return TodoCard(
+                      index: index,
+                      item: item,
+                      navigateEdit: navigateToEditPage,
+                      deleteById: deleteById);
                 })),
           ),
         ),
